@@ -1,7 +1,17 @@
 h1, h2, p {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  body {
-    background-color: cream;
-  }
+body {
+  /* background-color: burlywood; */
+}
+
+/*div, h1 etc are SELERCTORS not classes */
+/*width is taking 80% of its parent element AKA THE BODY ELEMENT */
+/*menu is a class soooo . */
+.menu {
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+background-color: burlywood;
+}
